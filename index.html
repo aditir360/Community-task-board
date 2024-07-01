@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Task Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Community Task Board</h1>
+        <div class="form-container">
+            <form id="task-form">
+                <input type="text" id="task" placeholder="Task Description" required>
+                <input type="date" id="deadline" required>
+                <input type="text" id="contact" placeholder="Your Email or Phone" required>
+                <button type="submit">Post Task</button>
+            </form>
+        </div>
+        <div class="task-list">
+            <h2>Available Tasks</h2>
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
